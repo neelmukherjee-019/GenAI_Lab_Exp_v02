@@ -1,0 +1,33 @@
+# Core UI, data analysis and plots
+streamlit>=1.38.0
+pandas>=2.1.0
+numpy>=1.26.0
+matplotlib>=3.8.0
+openpyxl>=3.1.2
+Pillow>=10.0.0
+scikit-learn>=1.4.0
+scipy>=1.11.0
+
+# Deep learning (choose a PyTorch build suitable for your GPU from https://pytorch.org/get-started/locally/)
+torch>=2.4.0
+torchvision>=0.19.0
+tensorflow>=2.16.0
+
+# Hugging Face model inference / diffusion / fine-tuning
+transformers>=4.46.0,<5.0.0
+diffusers>=0.35.0,<1.0.0
+accelerate>=1.0.0
+safetensors>=0.4.5
+sentencepiece>=0.2.0
+sentence-transformers>=3.0.0
+peft>=0.13.0
+langchain-core>=0.3.0
+langchain-huggingface>=0.1.0
+
+# Document ingestion and audio output
+pypdf>=5.0.0
+python-docx>=1.1.0
+
+# Optional QLoRA dependency; may be unavailable on some platforms
+# Install separately only when using 4-bit fine-tuning:
+# pip install bitsandbytes
